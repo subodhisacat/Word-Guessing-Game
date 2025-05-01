@@ -1,14 +1,4 @@
-const words = [
-  "apple",
-  "banana",
-  "computer",
-  "subodh",
-  "ocean",
-  "elephant",
-  "sunshine",
-  "boss",
-  "khwopa",
-];
+const words = ["apple", "ball", "cat", "dog", "fish", "sun", "moon", "star", "chair", "table", "book", "pen", "bag", "box", "cup", "tree", "leaf", "rock", "sand", "water", "rain", "snow", "wind", "fire", "ice", "grass", "sky", "cloud", "bird", "cow", "sheep", "goat", "horse", "pig", "duck", "boat", "car", "bus", "train", "bike", "road", "house", "door", "window", "bed", "pillow", "blanket", "shirt", "pants", "shoes", "socks", "hat", "fan", "light", "clock", "bell", "phone", "key", "lock", "balloon", "toy", "game", "cake", "bread", "rice", "milk", "juice", "fruit", "banana", "mango", "orange", "grape", "lemon", "sugar", "salt", "spoon", "fork", "knife", "plate", "bowl", "soap", "brush", "comb", "towel", "jeans", "nail", "hammer", "rope", "zip", "tape", "glue", "paint", "color", "draw", "write", "read", "jump", "laugh", "sleep", "dance", "sing"];
 let currentWord = words[Math.floor(Math.random() * words.length)];
 let hiddenWord =
   currentWord.slice(0, 3) + currentWord.slice(3).replace(/./g, "_"); // Display first 2-3 letters and replace the rest with underscores
